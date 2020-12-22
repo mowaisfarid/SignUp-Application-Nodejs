@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="head">
+            <div class="signInPage">
+                <a class="button" href="signin.html">SignIn</a>
+
+            </div>
+
+            <div class="signUpPage"> 
+                <a  class="button" href="index.html">SignUp</a>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="main">
+        <h1>SignUp Here!</h1>
+        <form action="#" onsubmit="return SignUp()">
+            <table class="signupform">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" id="names" class="inputs" placeholder="Enter your name" required></td>
+                </tr>
+
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" id="emails" class="inputs" placeholder="Enter your email" required></td>
+                </tr>
+                
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" id="passwords" class="inputs" placeholder="Enter your password" required></td>
+
+                </tr>
+
+                <tr>
+                  <td> <label for="Gender">Gender:</label></td>
+                
+
+                <td>
+                    <select id="genders" class="inputs" name="gender">
+                    <option class="inputs" value="Male">Male</option>
+                    <option class="inputs" value="Female">Female</option>
+                </select>
+                </td>
+            </tr>
+
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input class="inputs" type="number" id="phonenumbers" placeholder="Enter your number" required></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><button class="SignUpButton" >SignUp</button></td>
+                </tr>
+
+
+
+            </table>
+
+        </form>
+
+    </div>
+    
+</body>
+
+<script src="app.js"></script>
+</html>
